@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@300;400;600&family=Playfair+Display:wght@400;500;596;600&display=swap");
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: "Chivo Mono", monospace;
+  background-color: #222;
+  background-image: url(https://images.unsplash.com/photo-1670557934550-93665658943e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDM2fDZzTVZqVExTa2VRfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=1600&q=200);
+}
+.card {
+  background-color: black;
+  color: white;
+  width: 100%;
+  max-width: 420px;
+  padding: 2em;
+  margin: 1em;
+  border-radius: 30px;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  margin: 0.5em;
+  height: 2.5em;
+  width: 2.5em;
+  border: none;
+  outline: none;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+button:hover {
+  background-color: #7c7c7c6b;
+}
+
+.search-bar {
+  padding: 0.4em 1em;
+  border-radius: 26px;
+  outline: none;
+  border: none;
+  background-color: #7c7c7c6b;
+  color: white;
+  font-family: inherit;
+  font-size: 120%;
+  cursor: pointer;
+}
+.weather {
+  letter-spacing: 2px;
+}
+.description {
+  text-transform: capitalize;
+}
+.flex {
+  display: flex;
+  align-items: center;
+}
